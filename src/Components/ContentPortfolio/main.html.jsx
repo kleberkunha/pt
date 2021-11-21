@@ -193,16 +193,16 @@ function Main () {
                         <div className="divider-custom-line"></div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-lg-8 col-xl-4 list-contact">
-                            <a className="btn btn-xl btn-outline-success" href="0608505851" target="_blank" rel="noreferrer" data-bs-toggle="modal" data-bs-target="#portfolioModalPhone">
+                        <div className="col-lg-5 col-xl-5 list-contact">
+                            <a className="btn btn-md btn-outline-success" href="0608505851" target="_blank" rel="noreferrer" data-bs-toggle="modal" data-bs-target="#portfolioModalPhone">
                                 <i className="fas fa-download me-2"></i>
                                 Phone
                             </a>
-                            <a className="btn btn-xl btn-outline-success" href="https://www.linkedin.com/in/kleber-da-cunha/" target="_blank" rel="noreferrer">
+                            <a className="btn btn-md btn-outline-success" href="https://www.linkedin.com/in/kleber-da-cunha/" target="_blank" rel="noreferrer">
                                 <i className="fas fa-download me-2"></i>
                                 LinkedIn
                             </a>
-                            <a className="btn btn-xl btn-outline-success" href="hello.kleberkunha@gmail.com" target="_blank" rel="noreferrer" data-bs-toggle="modal" data-bs-target="#portfolioModalEmail">
+                            <a className="btn btn-md btn-outline-success" href="hello.kleberkunha@gmail.com" target="_blank" rel="noreferrer" data-bs-toggle="modal" data-bs-target="#portfolioModalEmail">
                                 <i className="fas fa-download me-2"></i>
                                 Email
                             </a>
