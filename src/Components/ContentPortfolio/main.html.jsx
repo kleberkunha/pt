@@ -40,13 +40,15 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalEcole">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img className="img-fluid" src={ecole} alt="..." />
                             </div>
                         </div>
+                    </div>
+                    <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -92,7 +94,7 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalAgency">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -102,7 +104,7 @@ function Main () {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalGossip">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -110,7 +112,7 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalPizza">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -118,7 +120,7 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalMovies">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -128,7 +130,7 @@ function Main () {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalNotes">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -136,7 +138,7 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalDoc">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -144,7 +146,7 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalStarbucks">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -163,18 +165,19 @@ function Main () {
                         <div className="divider-custom-line"></div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 ms-auto"><p className="lead">Hello, I'm Kleber, a Web Developer.<br/>
+                        <div className="col-lg-12 ms-auto"><h3 className="lead text-center">Hello, my name is Kleber, and I'm a Web Developer.<br/>
                             After years of working in IT support, I turned to web development.<br/>
                             I started my self-taught apprenticeship a year before finally having the chance to enroll in The Hacking Project’s Fullstack Developer training program.<br/>
 
                             The intensive six-month training course has allowed me to build a solid foundation, learn good practices and acquire the proper methodology
                             to be able to continue to progress.
-                            </p></div>
-                        <div className="col-lg-4 me-auto"><p className="lead"> 
-                        Today, I am looking for a job as a web developer to deepen and expand my knowledge and interest in web development.<br/>
+                            </h3>
+                            <h3 className="lead text-center">
+                                Today, I am looking for a job as a web developer to deepen and expand my knowledge and interest in web development.<br/>
+                                Versatility, a taste for teamwork, perseverance, curiosity and the desire to learn are the qualities that I have acquired and that are essential to the profession.
+                            </h3>
+                        </div>
                         
-
-                            Versatility, a taste for teamwork, perseverance, curiosity and the desire to learn are the qualities that I have acquired and that are essential to the profession.</p></div>
                     </div>
                     <div className="text-center mt-4">
                         <a className="btn btn-xl btn-outline-light" href="https://www.mediafire.com/file/9q17xmf40hmkjba/CV_Kleber_Cunha_withLinks.pdf/file" target="_blank" rel="noreferrer">
@@ -283,9 +286,7 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={CursoEmVideo} alt="..." />
-                                        <p className="mb-4">The Hacking Project is an intensive six-month training
-                                         course based on peer-to-peer learning. Over 1,200 hours of exercises, 
-                                         projects and evaluations per week. Ruby On Rails, Javascript ES6, React Js, Git/GitHub
+                                        <p className="mb-4">
                                          Cursos em video is a teaching platform with comprehensive video courses on programming.
                                          It also provides certificates for completed courses. HTML, CSS, Javascript, and Object-oriented programming.
 </p>
@@ -315,11 +316,39 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={B7} alt="..." />
-                                        <p className="mb-4">The Hacking Project is an intensive six-month training course based on peer-to-peer learning. 
-                                        Over 1,200 hours of exercises, projects and evaluations per week. Ruby On Rails, Javascript ES6, React Js, Git/GitHub
+                                        <p className="mb-4">
                                         B7web is an online course on FullStack programming that provides a certificate after successfully completing the program.
-                                        Cursos em video is a teaching platform with comprehensive video courses on programming. It also provides certificates for completed courses.
-                                        HTML, CSS, Javascript, and Object-oriented programming.</p>
+                                        </p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalEcole" tabindex="-1" aria-labelledby="portfolioModalEcole" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">42 School</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={ecole} alt="..." />
+                                        <p className="mb-4">
+                                        School 42 is based on peer-to-peer learning. I was preselected
+                                        for one intensive month of projects and exams: Shell, C programming language, and algorithms.
+                                        </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
@@ -375,8 +404,207 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={FollowNut} alt="..." />
-                                        <p className="mb-4">The final project of the formation The hacking project
-                                            about nutritionist website with a group of 5 people, 3 in backend and 2 in front.</p>
+                                        <p className="mb-4">This is the final project of the formation (The hacking Project),<br/> made with a group of 5 persons in total.</p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalAgency" tabindex="-1" aria-labelledby="portfolioModalAgency" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Property Search</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Agency} alt="..." />
+                                        <p className="mb-4">An application that search for properties, made with Rails + React,<br/>
+                                         5 persons in total worked in this project.
+                                        </p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalGossip" tabindex="-1" aria-labelledby="portfolioModalGossip" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Gossip Project</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Gossip} alt="..." />
+                                        <p className="mb-4">A social network project made in Ruby On rails,
+                                         carried out with The Hacking Project training course.
+                                         You can register, log in, create a post, edit and delete.
+                                        </p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalPizza" tabindex="-1" aria-labelledby="portfolioModalPizza" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Pizza Project</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Pizza} alt="..." />
+                                        <p className="mb-4">Made in javascript, this online pizza ordering application
+                                         allows you to take order of pizza and add it to a basket.
+                                        </p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalMovies" tabindex="-1" aria-labelledby="portfolioModalMovies" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Movies Search</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Movies} alt="..." />
+                                        <p className="mb-4">This online movie search, in javascript, used an API from IMDB.<br/>
+                                         It allows you to search for details about any movie or series.
+                                        </p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalNotes" tabindex="-1" aria-labelledby="portfolioModalNotes" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Note Block Project</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Note} alt="..." />
+                                        <p className="mb-4">With the Note Block project in ReactJS using StorageData,<br/>
+                                            you can create a note, edit,delete and it has an automatic save feature.
+                                        </p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalDoc" tabindex="-1" aria-labelledby="portfolioModalDoc" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Doc Project</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Doc} alt="..." />
+                                        <p className="mb-4">A template responsive from a doctor website.</p>
+                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModalStarbucks" tabindex="-1" aria-labelledby="portfolioModalStarbucks" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Starbucks Project</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={Starbucks} alt="..." />
+                                        <p className="mb-4">Template from the StartBucks website in HTML + CSS with responsive.</p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
@@ -403,7 +631,7 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <h2>06 08 50 58 51</h2>
-                                        <p className="mb-4">I'm available 24h, if you call and i do not answer please leave a message and i will be in contact few minutes later.</p>
+                                        <p className="mb-4">I'm available 24h, if you call, and I do not answer, please leave a message and I will be in contact a few minutes later.</p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
@@ -430,7 +658,7 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <h2>hello.kleberkunha@gmail.com</h2>
-                                        <p className="mb-4">I will be answering as fast as i can, in case that you did not have any answer please contact me direct by phone. 06-08-50-58-51.</p>
+                                        <p className="mb-4">I will be answering as fast as I can, in case that you did not have any answer please contact me direct by phone. 06-08-50-58-51.</p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
