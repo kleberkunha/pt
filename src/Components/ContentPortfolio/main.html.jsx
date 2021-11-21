@@ -260,10 +260,13 @@ function Main () {
                                         <p className="mb-4">The Hacking Project is an intensive six-month training course based
                                          on peer-to-peer learning. Over 1,200 hours of exercises, projects and evaluations per week.
                                          Ruby On Rails, Javascript ES6, React Js, Git/GitHub.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.thehackingproject.org/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">THP website</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -289,11 +292,14 @@ function Main () {
                                         <p className="mb-4">
                                          Cursos em video is a teaching platform with comprehensive video courses on programming.
                                          It also provides certificates for completed courses. HTML, CSS, Javascript, and Object-oriented programming.
-</p>
+                                        </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.cursoemvideo.com/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">Curso em video website</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -323,6 +329,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://b7web.com.br/fullstack/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">B7web website</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -353,6 +362,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://42.fr/en/homepage/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">42 website</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -382,6 +394,10 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://sports-with-me.herokuapp.com/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">Sports With Me website</i>
+                                        </a>
+                                        <p className="bg-danger mt-2 text-primary">Hosted in HEROKU</p>
                                     </div>
                                 </div>
                             </div>
@@ -409,6 +425,10 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://follownut.herokuapp.com/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">Follow Nut's website</i>
+                                        </a>
+                                        <p className="bg-danger mt-2 text-primary">Hosted in HEROKU</p>
                                     </div>
                                 </div>
                             </div>
@@ -438,6 +458,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -468,6 +491,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -497,6 +523,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -526,6 +555,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -555,6 +587,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -582,6 +617,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -609,6 +647,9 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
+                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
