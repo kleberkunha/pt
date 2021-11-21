@@ -24,12 +24,10 @@ function MainTop () {
                         <div className="divider-custom-line"></div>
                     </div>
                     <p className="masthead-subheading font-weight-light mb-0">Developer - IT support </p>
-                    <img className="available" src={available} alt="Available" />
+                    <a href="https://www.mediafire.com/file/9q17xmf40hmkjba/CV_Kleber_Cunha.pdf/file" target="_blank" rel="noreferrer">
+                        <img className="available" src={available} alt="Available" />
+                    </a>
                 </div>
-
-
-
-
                 <div className="portfolio-modal modal fade" id="portfolioModalProfile" tabindex="-1" aria-labelledby="portfolioModalProfile" aria-hidden="true">
                     <div className="modal-dialog modal-xl">
                         <div className="modal-content bg-dark">
