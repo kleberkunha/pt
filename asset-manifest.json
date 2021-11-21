@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pt/static/css/main.261e58aa.chunk.css",
+    "main.js": "/pt/static/js/main.b341e8bd.chunk.js",
+    "main.js.map": "/pt/static/js/main.b341e8bd.chunk.js.map",
+    "runtime-main.js": "/pt/static/js/runtime-main.ceaeb108.js",
+    "runtime-main.js.map": "/pt/static/js/runtime-main.ceaeb108.js.map",
+    "static/js/2.1d2d338b.chunk.js": "/pt/static/js/2.1d2d338b.chunk.js",
+    "static/js/2.1d2d338b.chunk.js.map": "/pt/static/js/2.1d2d338b.chunk.js.map",
+    "index.html": "/pt/index.html",
+    "static/css/main.261e58aa.chunk.css.map": "/pt/static/css/main.261e58aa.chunk.css.map",
+    "static/js/2.1d2d338b.chunk.js.LICENSE.txt": "/pt/static/js/2.1d2d338b.chunk.js.LICENSE.txt",
+    "static/media/THP.8d2ae2c2.png": "/pt/static/media/THP.8d2ae2c2.png",
+    "static/media/agency.c25469a8.png": "/pt/static/media/agency.c25469a8.png",
+    "static/media/b7.96c5f9df.jpg": "/pt/static/media/b7.96c5f9df.jpg",
+    "static/media/cursoEmVideo.d8bce2a4.png": "/pt/static/media/cursoEmVideo.d8bce2a4.png",
+    "static/media/doc.474374c3.png": "/pt/static/media/doc.474374c3.png",
+    "static/media/follownut.9d8ad429.png": "/pt/static/media/follownut.9d8ad429.png",
+    "static/media/gossip.8784e03e.png": "/pt/static/media/gossip.8784e03e.png",
+    "static/media/me.38c6ce9e.png": "/pt/static/media/me.38c6ce9e.png",
+    "static/media/movies.403ab6c1.png": "/pt/static/media/movies.403ab6c1.png",
+    "static/media/note.88dd6ed2.png": "/pt/static/media/note.88dd6ed2.png",
+    "static/media/pizza.233826a3.png": "/pt/static/media/pizza.233826a3.png",
+    "static/media/sportswithme.9f3263ff.png": "/pt/static/media/sportswithme.9f3263ff.png",
+    "static/media/starbucks.6951706e.png": "/pt/static/media/starbucks.6951706e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaeb108.js",
+    "static/js/2.1d2d338b.chunk.js",
+    "static/css/main.261e58aa.chunk.css",
+    "static/js/main.b341e8bd.chunk.js"
+  ]
+}
