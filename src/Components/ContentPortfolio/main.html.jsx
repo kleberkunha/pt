@@ -397,7 +397,7 @@ function Main () {
                                         <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://sports-with-me.herokuapp.com/" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">Sports With Me website</i>
                                         </a>
-                                        <p className="bg-danger mt-2 text-primary">Hosted in HEROKU</p>
+                                        <p className="bg-danger mt-2 text-primary">Hosted at HEROKU</p>
                                     </div>
                                 </div>
                             </div>
@@ -428,7 +428,7 @@ function Main () {
                                         <a className="btn btn-primary link-to-website mx-2" href="https://follownut.herokuapp.com/" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">Follow Nut's website</i>
                                         </a>
-                                        <p className="bg-danger mt-2 text-primary">Hosted in HEROKU</p>
+                                        <p className="bg-danger mt-2 text-primary">Hosted at HEROKU</p>
                                     </div>
                                 </div>
                             </div>
@@ -454,12 +454,12 @@ function Main () {
                                         <p className="mb-4">An application that search for properties, made with Rails + React,<br/>
                                          5 persons in total worked in this project.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary" href="#!">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/thp-immo_front" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Agency project</i>
                                         </a>
                                     </div>
                                 </div>
@@ -491,8 +491,8 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Gossip_Project_Pimp" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Gossip project</i>
                                         </a>
                                     </div>
                                 </div>
@@ -523,8 +523,8 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Pizza_Site_JS" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Pizza project</i>
                                         </a>
                                     </div>
                                 </div>
@@ -555,8 +555,8 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Movie_List-info_Project" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Movie Search project</i>
                                         </a>
                                     </div>
                                 </div>
@@ -587,8 +587,8 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Note-Block" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Note project</i>
                                         </a>
                                     </div>
                                 </div>
@@ -617,8 +617,8 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Project_Doc_template" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Doc project</i>
                                         </a>
                                     </div>
                                 </div>
@@ -647,8 +647,8 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-secondary link-to-website mx-2" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw link-to-website">Work in progress.</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Starbucks_copy" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">See Starbucks project</i>
                                         </a>
                                     </div>
                                 </div>
