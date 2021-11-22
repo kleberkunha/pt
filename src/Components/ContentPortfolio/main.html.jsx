@@ -425,7 +425,7 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://follownut.herokuapp.com/" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://follownut.herokuapp.com/" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">Follow Nut's website</i>
                                         </a>
                                         <p className="bg-danger mt-2 text-primary">Hosted at HEROKU</p>
@@ -454,11 +454,11 @@ function Main () {
                                         <p className="mb-4">An application that search for properties, made with Rails + React,<br/>
                                          5 persons in total worked in this project.
                                         </p>
-                                        <button className="btn btn-primary" href="#!">
+                                        <button className="btn btn-primary mt-2" href="#!">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/thp-immo_front" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/thp-immo_front" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Agency project</i>
                                         </a>
                                     </div>
@@ -487,11 +487,11 @@ function Main () {
                                          carried out with The Hacking Project training course.
                                          You can register, log in, create a post, edit and delete.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Gossip_Project_Pimp" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/Gossip_Project_Pimp" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Gossip project</i>
                                         </a>
                                     </div>
@@ -519,11 +519,11 @@ function Main () {
                                         <p className="mb-4">Made in javascript, this online pizza ordering application
                                          allows you to take order of pizza and add it to a basket.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Pizza_Site_JS" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/Pizza_Site_JS" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Pizza project</i>
                                         </a>
                                     </div>
@@ -551,11 +551,11 @@ function Main () {
                                         <p className="mb-4">This online movie search, in javascript, used an API from IMDB.<br/>
                                          It allows you to search for details about any movie or series.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Movie_List-info_Project" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/Movie_List-info_Project" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Movie Search project</i>
                                         </a>
                                     </div>
@@ -583,11 +583,11 @@ function Main () {
                                         <p className="mb-4">With the Note Block project in ReactJS using StorageData,<br/>
                                             you can create a note, edit,delete and it has an automatic save feature.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Note-Block" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/Note-Block" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Note project</i>
                                         </a>
                                     </div>
@@ -613,11 +613,11 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={Doc} alt="..." />
                                         <p className="mb-4">A template responsive from a doctor website.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Project_Doc_template" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/Project_Doc_template" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Doc project</i>
                                         </a>
                                     </div>
@@ -643,11 +643,11 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={Starbucks} alt="..." />
                                         <p className="mb-4">Template from the StartBucks website in HTML + CSS with responsive.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/kleberkunha/Starbucks_copy" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://github.com/kleberkunha/Starbucks_copy" data-bs-dismiss="modal" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">See Starbucks project</i>
                                         </a>
                                     </div>
