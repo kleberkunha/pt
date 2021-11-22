@@ -219,9 +219,9 @@ function Main () {
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <h4 className="text-uppercase mb-4">Location</h4>
                             <p className="lead mb-0">
-                                Champs sur marne / France
+                                Seine-et-Marne / France
                                 <br />
-                                Postal code 77420
+                                Available to change location!
                             </p>
                         </div>
                         <div className="col-lg-4 mb-5 mb-lg-0">
@@ -233,7 +233,7 @@ function Main () {
                             <h4 className="text-uppercase mb-4">About Freelancer</h4>
                             <p className="lead mb-0">
                                 I'm available for freelance work as computer repair, IT support, Website Developer.<br/>
-                                Fell free to contact me.
+                                Feel free to contact me.
                             </p>
                         </div>
                     </div>
@@ -390,11 +390,11 @@ function Main () {
                                         <p className="mb-4">This sport meeting application was a three-person team project,
                                          completed in two weeks. The goal: Find people to practice diversified sports activities,
                                          and create or take part in offered sporting events.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://sports-with-me.herokuapp.com/" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2 mt-2" href="https://sports-with-me.herokuapp.com/" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">Sports With Me website</i>
                                         </a>
                                         <p className="bg-danger mt-2 text-primary">Hosted in HEROKU</p>
