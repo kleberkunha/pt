@@ -655,6 +655,10 @@ progress {
     max-width: 1320px;
   }
 }
+html{
+  scroll-behavior: smooth;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -11436,7 +11440,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(14rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {

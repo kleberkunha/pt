@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import '../../global.scss';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function HeaderBar () {
@@ -14,12 +14,12 @@ function HeaderBar () {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item mx-0 mx-lg-1"><Link to="/" className="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Home</Link></li>
-                            <li className="nav-item mx-0 mx-lg-1"><Link to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Studies</Link></li>
-                            <li className="nav-item mx-0 mx-lg-1"><Link to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Projects</Link></li>
-                            <li className="nav-item mx-0 mx-lg-1"><Link to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">About</Link></li>
+                            <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#top-section" className="nav-link py-3 px-0 px-lg-3 rounded" href="#masthead-heading">Home</Link></li>
+                            <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#studies" className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Studies</Link></li>
+                            <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#projects" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Projects</Link></li>
+                            <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#about" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">About</Link></li>
                             <li className="nav-item mx-0 mx-lg-1"><a to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="https://www.mediafire.com/file/9q17xmf40hmkjba/CV_Kleber_Cunha.pdf/file" target="_blank" rel="noreferrer">CV</a></li>
-                            <li className="nav-item mx-0 mx-lg-1"><Link to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</Link></li>
+                            <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#contact" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</Link></li>
                         </ul>
                     </div>
                 </div>

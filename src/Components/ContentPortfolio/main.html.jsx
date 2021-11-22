@@ -22,7 +22,7 @@ import Starbucks from '../ContentPortfolio/img/portfolio/Projects/starbucks.png'
 function Main () {
     return(
         <>
-            <section className="page-section portfolio" id="portfolio">
+            <section className="page-section portfolio" id="studies">
                 <div className="container">
                     <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Studies</h2>
                     <div className="divider-custom">
@@ -68,7 +68,7 @@ function Main () {
                     </div>
                 </div>
             </section>
-            <section className="page-section portfolio" id="portfolio">
+            <section className="page-section portfolio" id="projects">
                 <div className="container">
                     <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
                     <div className="divider-custom">
@@ -156,7 +156,7 @@ function Main () {
                     </div>
                 </div>
             </section>
-            <section className="page-section bg-primary text-white mb-0" id="about">
+            <section className="page-section bg-dark text-white mb-0" id="about">
                 <div className="container">
                     <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                     <div className="divider-custom divider-light">
