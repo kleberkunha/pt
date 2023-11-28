@@ -1,0 +1,13 @@
+.available{
+    transition: transform .5s ease-in-out;
+}
+.available:hover{
+    transform: rotate(-5deg);
+    cursor: pointer;
+}
+
+.profile{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
