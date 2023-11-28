@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/pt/static/css/main.a9c894a8.chunk.css",
+    "main.js": "/pt/static/js/main.f3736048.chunk.js",
+    "main.js.map": "/pt/static/js/main.f3736048.chunk.js.map",
+    "runtime-main.js": "/pt/static/js/runtime-main.2f3c8f94.js",
+    "runtime-main.js.map": "/pt/static/js/runtime-main.2f3c8f94.js.map",
+    "static/js/2.eb5fffd6.chunk.js": "/pt/static/js/2.eb5fffd6.chunk.js",
+    "static/js/2.eb5fffd6.chunk.js.map": "/pt/static/js/2.eb5fffd6.chunk.js.map",
+    "index.html": "/pt/index.html",
+    "static/css/main.a9c894a8.chunk.css.map": "/pt/static/css/main.a9c894a8.chunk.css.map",
+    "static/js/2.eb5fffd6.chunk.js.LICENSE.txt": "/pt/static/js/2.eb5fffd6.chunk.js.LICENSE.txt",
+    "static/media/THP.8d2ae2c2.png": "/pt/static/media/THP.8d2ae2c2.png",
+    "static/media/academy.bd584878.png": "/pt/static/media/academy.bd584878.png",
+    "static/media/agency.c25469a8.png": "/pt/static/media/agency.c25469a8.png",
+    "static/media/b7.96c5f9df.jpg": "/pt/static/media/b7.96c5f9df.jpg",
+    "static/media/cursoEmVideo.d8bce2a4.png": "/pt/static/media/cursoEmVideo.d8bce2a4.png",
+    "static/media/doc.474374c3.png": "/pt/static/media/doc.474374c3.png",
+    "static/media/doghero.073dca1c.png": "/pt/static/media/doghero.073dca1c.png",
+    "static/media/eu.699ef79b.jpg": "/pt/static/media/eu.699ef79b.jpg",
+    "static/media/follownut.9d8ad429.png": "/pt/static/media/follownut.9d8ad429.png",
+    "static/media/gorails.dcfdfe81.jpg": "/pt/static/media/gorails.dcfdfe81.jpg",
+    "static/media/gossip.8784e03e.png": "/pt/static/media/gossip.8784e03e.png",
+    "static/media/movies.403ab6c1.png": "/pt/static/media/movies.403ab6c1.png",
+    "static/media/note.88dd6ed2.png": "/pt/static/media/note.88dd6ed2.png",
+    "static/media/pizza.233826a3.png": "/pt/static/media/pizza.233826a3.png",
+    "static/media/sportswithme.9f3263ff.png": "/pt/static/media/sportswithme.9f3263ff.png",
+    "static/media/starbucks.6951706e.png": "/pt/static/media/starbucks.6951706e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f3c8f94.js",
+    "static/js/2.eb5fffd6.chunk.js",
+    "static/css/main.a9c894a8.chunk.css",
+    "static/js/main.f3736048.chunk.js"
+  ]
+}
