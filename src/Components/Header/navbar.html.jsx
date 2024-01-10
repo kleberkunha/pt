@@ -16,6 +16,7 @@ function HeaderBar () {
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#top-section" className="nav-link py-3 px-0 px-lg-3 rounded" href="#masthead-heading">Home</Link></li>
                             <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#studies" className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Studies</Link></li>
+                            <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#experiences" className="nav-link py-3 px-0 px-lg-3 rounded" href="#experiences">Experiences</Link></li>
                             <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#projects" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Projects</Link></li>
                             <li className="nav-item mx-0 mx-lg-1"><Link smooth to="#about" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">About</Link></li>
                             <li className="nav-item mx-0 mx-lg-1"><a to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="https://www.mediafire.com/file/7vtyzpcxmguzd5z/CV_Kleber_da_Cunha_2023.pdf/file" target="_blank" rel="noreferrer">CV</a></li>
