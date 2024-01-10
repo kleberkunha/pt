@@ -21,3 +21,15 @@
 .link-to-website:hover{
     color: white;
 }
+
+.about-line-control{
+    display: flex;
+    justify-content: center;
+
+    .about-line{
+        margin-top: 20px;
+        border-left: 1px solid white;
+        height: 50px;
+        position: relative;
+    }
+}

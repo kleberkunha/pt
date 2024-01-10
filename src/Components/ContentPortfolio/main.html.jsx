@@ -18,6 +18,12 @@ import Note from '../ContentPortfolio/img/portfolio/Projects/note.png';
 import Doc from '../ContentPortfolio/img/portfolio/Projects/doc.png';
 import Starbucks from '../ContentPortfolio/img/portfolio/Projects/starbucks.png';
 import doghero from '../ContentPortfolio/img/portfolio/Projects/doghero.png';
+import dm from '../ContentPortfolio/img/portfolio/dm.jpg';
+import ormaes from '../ContentPortfolio/img/portfolio/ormaes.jpg';
+
+
+
+
 
 
 
@@ -90,6 +96,50 @@ function Main () {
                     </div>
                 </div>
             </section>
+
+
+
+            <section className="page-section portfolio" id="experiences">
+                <div className="container">
+                    <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Experiences</h2>
+                    <div className="divider-custom">
+                        <div className="divider-custom-line"></div>
+                        <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                        <div className="divider-custom-line"></div>
+                    </div>
+                    
+                    <div className="row justify-content-center">
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src={dm} alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src={ormaes} alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
             <section className="page-section portfolio" id="projects">
                 <div className="container">
                     <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
@@ -197,6 +247,7 @@ function Main () {
                         <div className="divider-custom-line"></div>
                     </div>
                     <div className="row">
+                        <div className='d-flex justify-content-center'><p>2021</p></div>
                         <div className="col-lg-12 ms-auto"><h3 className="lead text-center">Hello, my name is Kleber, and I'm a Web Developer.<br/>
                             After years of working in IT support, I turned to web development.<br/>
                             I started my self-taught apprenticeship a year before finally having the chance to enroll in The Hacking Project’s Fullstack Developer training program.<br/>
@@ -207,6 +258,21 @@ function Main () {
                             <h3 className="lead text-center">
                                 Today, I am looking for a job as a web developer to deepen and expand my knowledge and interest in web development.<br/>
                                 Versatility, a taste for teamwork, perseverance, curiosity and the desire to learn are the qualities that I have acquired and that are essential to the profession.
+                            </h3>
+                        </div>
+
+                        <div className='about-line-control'>
+                            <div className='about-line'></div>
+                        </div>
+
+                        <div className='d-flex justify-content-center mt-4'><p>2024</p></div>
+
+                        <div className="col-lg-12 ms-auto"><h3 className="lead text-center">Today I arrive to have my back +2 in web development.<br/>
+                         With 1 year of experience working for Direct Market and 10 months for Ormaes with a new Alternance as Concepteur Développeur d’Applications.
+                            </h3>
+                            <h3 className="lead text-center">
+                            Today, I am looking for a job in Alternance as a Concepteur Développeur d’Applications to finish my bac + 4.<br/>
+                               Here some details about the <a href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/" target='_blank' without rel="noreferrer">Alternance</a>.
                             </h3>
                         </div>
 
@@ -251,7 +317,7 @@ function Main () {
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <h4 className="text-uppercase mb-4">Location</h4>
                             <p className="lead mb-0">
-                                Strasbourg / France
+                                Schiltigheim / France
                                 <br />
                                 Available to change location!
                             </p>
@@ -265,7 +331,7 @@ function Main () {
                 </div>
             </footer>
             <div className="copyright py-4 text-center text-white">
-                <div className="container"><small>Copyright &copy; Kleber da Cunha 2023</small></div>
+                <div className="container"><small>Copyright &copy; Kleber da Cunha 2024</small></div>
             </div>
             <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
@@ -339,16 +405,15 @@ function Main () {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-8">
-                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Curso em Video</h2>
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Direct Market</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
                                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
-                                        <img className="img-fluid rounded mb-5" src={CursoEmVideo} alt="..." />
+                                        <img className="img-fluid rounded mb-5" src={dm} alt="..." />
                                         <p className="mb-4">
-                                         Cursos em video is a teaching platform with comprehensive video courses on programming.
-                                         It also provides certificates for completed courses. HTML, CSS, Javascript, and Object-oriented programming.
+                                         Direct Market experiences
                                         </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
@@ -372,15 +437,15 @@ function Main () {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-8">
-                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">B7WEB</h2>
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Ormaes</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
                                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
-                                        <img className="img-fluid rounded mb-5" src={B7} alt="..." />
+                                        <img className="img-fluid rounded mb-5" src={ormaes} alt="..." />
                                         <p className="mb-4">
-                                        B7web is an online course on FullStack programming that provides a certificate after successfully completing the program.
+                                            Ormaes experiences
                                         </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
